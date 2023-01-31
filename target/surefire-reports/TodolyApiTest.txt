@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TodolyApiTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.697 s <<< FAILURE! - in TodolyApiTest
+TodolyApiTest.getUserFail  Time elapsed: 1.316 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path $ doesn't match.
+Expected: not map containing ["ErrorCode"->ANYTHING]
+  Actual: <{ErrorMessage=Not Authenticated, ErrorCode=102}>
+
+	at TodolyApiTest.getUserFail(TodolyApiTest.java:88)
+
