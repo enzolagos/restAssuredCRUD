@@ -1,6 +1,8 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
+//This Object was created to practice deserialization
+
 public class User {
     @JsonProperty
     private String Email;
